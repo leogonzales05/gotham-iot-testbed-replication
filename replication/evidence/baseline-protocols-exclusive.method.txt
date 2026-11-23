@@ -1,0 +1,9 @@
+Clasificación exclusiva propia: cada trama pertenece a una categoría.
+Fuente: frame.protocols de TShark con heurística rtp_udp habilitada.
+Se elige el primer protocolo presente según esta prioridad:
+icmp > icmpv6 > arp > sdp > rtsp > coap > mqtt > dns > ntp > rtcp > rtp > dtls > tls > tcp > udp > ipv6 > ip > eth
+ICMP/ICMPv6 conservan prioridad sobre protocolos de paquetes citados.
+El contenido data-text-lines de CoAP queda agrupado en CoAP.
+SDP queda separado de RTSP. TCP/UDP son categorías residuales.
+No se ha confirmado que esta sea la metodología de la Tabla V.
+La clasificación depende del reconocimiento de protocolos de TShark.

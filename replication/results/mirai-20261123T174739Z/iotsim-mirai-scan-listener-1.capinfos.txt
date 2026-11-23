@@ -1,0 +1,5 @@
+File name:           /home/ubuntu/GNS3/projects/c09e7ed4-88b1-401f-a934-deaca6d79683/project-files/captures/iotsim-mirai-scan-listener-1-20261123T175431Z.pcap
+Number of packets:   102
+Capture duration:    409.601421 seconds
+First packet time:   2026-11-23 17:54:38.635212
+Last packet time:    2026-11-23 18:01:28.236633

@@ -1,0 +1,6 @@
+File name:           /home/ubuntu/GNS3/projects/c09e7ed4-88b1-401f-a934-deaca6d79683/project-files/captures/gotham-normal-60min-20261118T212627Z.pcap
+Number of packets:   2651026
+File size:           3369057379 bytes
+Capture duration:    3600.005968 seconds
+First packet time:   2026-11-18 21:26:27.892644
+Last packet time:    2026-11-18 22:26:27.898612

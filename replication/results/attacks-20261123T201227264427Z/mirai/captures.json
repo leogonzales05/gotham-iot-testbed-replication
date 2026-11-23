@@ -1,0 +1,42 @@
+[
+  {
+    "node": "iotsim-mirai-cnc-1",
+    "link_id": "9eb2cfe7-37cb-472c-9412-84258ad86a12",
+    "pcap": "/home/ubuntu/GNS3/projects/c09e7ed4-88b1-401f-a934-deaca6d79683/project-files/captures/mirai-iotsim-mirai-cnc-1-20261123T201227264427Z.pcap",
+    "sha256": "4335807c051c0394f3bea98d89bb85cdc9cd456b33abc6ebb36722d92ae9d563",
+    "summary_exit_code": 0,
+    "tcp_exit_code": 0
+  },
+  {
+    "node": "iotsim-mirai-scan-listener-1",
+    "link_id": "38d8e4aa-63db-46c3-bd58-fccc4a75f532",
+    "pcap": "/home/ubuntu/GNS3/projects/c09e7ed4-88b1-401f-a934-deaca6d79683/project-files/captures/mirai-iotsim-mirai-scan-listener-1-20261123T201227264427Z.pcap",
+    "sha256": "89c806fb68be3d734cf3ba0f265562de005b9588facfaed4b0893d0a5620ba23",
+    "summary_exit_code": 0,
+    "tcp_exit_code": 0
+  },
+  {
+    "node": "iotsim-mirai-wget-loader-1",
+    "link_id": "6bed8240-b6ba-458b-bf3b-194ca1952809",
+    "pcap": "/home/ubuntu/GNS3/projects/c09e7ed4-88b1-401f-a934-deaca6d79683/project-files/captures/mirai-iotsim-mirai-wget-loader-1-20261123T201227264427Z.pcap",
+    "sha256": "8ecb204c70f65f22d24d8852facde4192cc1b7821398a032adc538095a38e18a",
+    "summary_exit_code": 0,
+    "tcp_exit_code": 0
+  },
+  {
+    "node": "iotsim-mirai-loader-1",
+    "link_id": "f753014f-e090-43b6-84ad-6134413e4dc3",
+    "pcap": "/home/ubuntu/GNS3/projects/c09e7ed4-88b1-401f-a934-deaca6d79683/project-files/captures/mirai-iotsim-mirai-loader-1-20261123T201227264427Z.pcap",
+    "sha256": "2b0eb8bf8bb3368fa64bc22f70b6ae2074f3236a82141b7c5fcc81ed0ac5a62a",
+    "summary_exit_code": 0,
+    "tcp_exit_code": 0
+  },
+  {
+    "node": "iotsim-mirai-bot-1",
+    "link_id": "474a6d95-1399-429a-8724-6b20d734f97e",
+    "pcap": "/home/ubuntu/GNS3/projects/c09e7ed4-88b1-401f-a934-deaca6d79683/project-files/captures/mirai-iotsim-mirai-bot-1-20261123T201227264427Z.pcap",
+    "sha256": "c32a01008fe80784e88ba2e8a971dad629bfcd7a59b3e40d15c9dd984b468ed6",
+    "summary_exit_code": 0,
+    "tcp_exit_code": 0
+  }
+]

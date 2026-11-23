@@ -1,0 +1,10 @@
+[
+  {
+    "node": "iotsim-metasploit-1",
+    "link_id": "05c94a20-4596-4d82-9212-5eb607d126eb",
+    "pcap": "/home/ubuntu/GNS3/projects/c09e7ed4-88b1-401f-a934-deaca6d79683/project-files/captures/mqtt-iotsim-metasploit-1-20261123T201227264427Z.pcap",
+    "sha256": "20c5d13e451adc1106cf8769fd170d069b38d33d876591cc845787053cdeb914",
+    "summary_exit_code": 0,
+    "tcp_exit_code": 0
+  }
+]

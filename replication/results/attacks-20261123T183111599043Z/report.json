@@ -1,0 +1,10 @@
+{
+  "start_utc": "2026-11-23T18:31:11.599146+00:00",
+  "stages": {},
+  "scope": "Lanzadores originales Mirai, Merlin y Metasploit/MQTT. No automatiza Nmap, Masscan ni amplificaci\u00f3n CoAP.",
+  "remaining": [
+    "Nmap/Masscan",
+    "amplificaci\u00f3n CoAP"
+  ],
+  "warning": "Los cambios de contrase\u00f1as y Telnet de Mirai persisten. La parada de nodos no restaura los dispositivos."
+}

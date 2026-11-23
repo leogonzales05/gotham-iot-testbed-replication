@@ -1,0 +1,5 @@
+File name:           /home/ubuntu/GNS3/projects/c09e7ed4-88b1-401f-a934-deaca6d79683/project-files/captures/mirai-iotsim-mirai-cnc-1-20261123T201227264427Z.pcap
+Number of packets:   82
+Capture duration:    158.437636 seconds
+First packet time:   2026-11-23 20:12:30.754939
+Last packet time:    2026-11-23 20:15:09.192575

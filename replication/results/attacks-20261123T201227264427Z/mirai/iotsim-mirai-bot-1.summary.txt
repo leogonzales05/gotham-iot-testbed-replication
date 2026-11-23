@@ -1,0 +1,5 @@
+File name:           /home/ubuntu/GNS3/projects/c09e7ed4-88b1-401f-a934-deaca6d79683/project-files/captures/mirai-iotsim-mirai-bot-1-20261123T201227264427Z.pcap
+Number of packets:   32922
+Capture duration:    162.650887 seconds
+First packet time:   2026-11-23 20:12:34.195003
+Last packet time:    2026-11-23 20:15:16.845890

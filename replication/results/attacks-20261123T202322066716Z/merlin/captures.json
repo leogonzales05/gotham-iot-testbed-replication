@@ -1,0 +1,10 @@
+[
+  {
+    "node": "iotsim-merlin-cnc-1",
+    "link_id": "7c61acba-03e8-4dfe-99c6-987c6ddf7b9f",
+    "pcap": "/home/ubuntu/GNS3/projects/c09e7ed4-88b1-401f-a934-deaca6d79683/project-files/captures/merlin-iotsim-merlin-cnc-1-20261123T202322066716Z.pcap",
+    "sha256": "29665d0cd17054c872a1203920303b87deaa0f70afd8f90aa9bdd6a46ca5e74a",
+    "summary_exit_code": 0,
+    "tcp_exit_code": 0
+  }
+]

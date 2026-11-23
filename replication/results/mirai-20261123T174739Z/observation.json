@@ -1,0 +1,23 @@
+{
+  "start_utc": "2026-11-23T17:56:27.875492+00:00",
+  "planned_observation_seconds": 300,
+  "behavior_validated": false,
+  "note": "La salida del lanzador no confirma \u00e9xito del experimento.",
+  "launcher_exit_code": 0,
+  "bot_stop_confirmed": true,
+  "capture_stops": [
+    {
+      "node": "iotsim-mirai-bot-1",
+      "stopped": true
+    },
+    {
+      "node": "iotsim-mirai-cnc-1",
+      "stopped": true
+    },
+    {
+      "node": "iotsim-mirai-scan-listener-1",
+      "stopped": true
+    }
+  ],
+  "end_utc": "2026-11-23T18:01:31.751048+00:00"
+}

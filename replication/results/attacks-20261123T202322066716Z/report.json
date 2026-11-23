@@ -1,0 +1,46 @@
+{
+  "start_utc": "2026-11-23T20:23:22.066871+00:00",
+  "stages": {
+    "mirai": {
+      "start_utc": "2026-11-23T20:23:24.372310+00:00",
+      "status": "executed_requires_evidence_review",
+      "behavior_validated": false,
+      "source_sha256": "47a8d38c6a8d55926f23fa1aac0481eec20348222bf49b076b2f4e078f958e66",
+      "launcher_start_utc": "2026-11-23T20:23:58.751257+00:00",
+      "launcher_exit_code": 0,
+      "listener_reports": 1,
+      "listener_unique_ips": [
+        "192.168.19.14"
+      ],
+      "evidence_note": "Reportes del listener; no prueban propagaci\u00f3n ni DDoS.",
+      "end_utc": "2026-11-23T20:26:15.592639+00:00"
+    },
+    "merlin": {
+      "start_utc": "2026-11-23T20:26:15.592910+00:00",
+      "status": "executed_requires_evidence_review",
+      "behavior_validated": false,
+      "source_sha256": "e538d82a7241296cc0873fff6a1cc0bcf8b18ffce888649948c0b749395b3e57",
+      "launcher_start_utc": "2026-11-23T20:26:46.460585+00:00",
+      "launcher_exit_code": 0,
+      "end_utc": "2026-11-23T20:30:12.764208+00:00"
+    },
+    "mqtt": {
+      "start_utc": "2026-11-23T20:30:12.764475+00:00",
+      "status": "executed_requires_evidence_review",
+      "behavior_validated": false,
+      "source_sha256": "cb87e2cc3ca71e40f246cfb436e273452e5b4f93dae25a8d293268d6987d1f5f",
+      "launcher_start_utc": "2026-11-23T20:30:43.655006+00:00",
+      "launcher_exit_code": 0,
+      "end_utc": "2026-11-23T20:33:03.557861+00:00"
+    }
+  },
+  "scope": "Lanzadores originales Mirai, Merlin y Metasploit/MQTT. No automatiza Nmap, Masscan ni amplificaci\u00f3n CoAP.",
+  "remaining": [
+    "Nmap/Masscan",
+    "amplificaci\u00f3n CoAP"
+  ],
+  "warning": "Los cambios de contrase\u00f1as y Telnet de Mirai persisten. La parada de nodos no restaura los dispositivos.",
+  "scanner_patch_sha256": "700a32edfa752c7ecc32d2cd3b3bd5eaab4322bcdeb9bd76943ea44c799b24d8",
+  "cleanup_errors": [],
+  "end_utc": "2026-11-23T20:33:03.558067+00:00"
+}

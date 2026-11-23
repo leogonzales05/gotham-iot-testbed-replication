@@ -1,0 +1,5 @@
+File name:           /home/ubuntu/GNS3/projects/c09e7ed4-88b1-401f-a934-deaca6d79683/project-files/captures/mqtt-iotsim-metasploit-1-20261123T201227264427Z.pcap
+Number of packets:   7891
+Capture duration:    117.435957 seconds
+First packet time:   2026-11-23 20:15:21.837951
+Last packet time:    2026-11-23 20:17:19.273908

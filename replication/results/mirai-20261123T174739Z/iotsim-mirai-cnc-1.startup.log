@@ -1,0 +1,9 @@
+ * Starting MySQL database server mysqld       [80G su: warning: cannot change directory to /nonexistent: No such file or directory
+
+[74G[ OK ]
++----+----------+----------+----------------+----------+------+-----------+----------+-------+-------+---------+
+| id | username | password | duration_limit | cooldown | wrc  | last_paid | max_bots | admin | intvl | api_key |
++----+----------+----------+----------------+----------+------+-----------+----------+-------+-------+---------+
+|  1 | muser    | mpass    |              0 |        0 |    0 |         0 |       -1 |     1 |    30 |         |
++----+----------+----------+----------------+----------+------+-----------+----------+-------+-------+---------+
+Mysql DB opened

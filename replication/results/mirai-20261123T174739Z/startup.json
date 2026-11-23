@@ -1,0 +1,37 @@
+[
+  {
+    "name": "iotsim-mirai-cnc-1",
+    "state": "running",
+    "network_disabled": true,
+    "network_mode": "bridge",
+    "docker_networks": {}
+  },
+  {
+    "name": "iotsim-mirai-scan-listener-1",
+    "state": "running",
+    "network_disabled": true,
+    "network_mode": "bridge",
+    "docker_networks": {}
+  },
+  {
+    "name": "iotsim-mirai-wget-loader-1",
+    "state": "running",
+    "network_disabled": true,
+    "network_mode": "bridge",
+    "docker_networks": {}
+  },
+  {
+    "name": "iotsim-mirai-loader-1",
+    "state": "running",
+    "network_disabled": true,
+    "network_mode": "bridge",
+    "docker_networks": {}
+  },
+  {
+    "name": "iotsim-mirai-bot-1",
+    "state": "running",
+    "network_disabled": true,
+    "network_mode": "bridge",
+    "docker_networks": {}
+  }
+]

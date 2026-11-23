@@ -1,0 +1,20 @@
+[
+  {
+    "node": "iotsim-mirai-bot-1",
+    "link_id": "474a6d95-1399-429a-8724-6b20d734f97e",
+    "filename": "iotsim-mirai-bot-1-20261123T175431Z.pcap",
+    "requested_start_utc": "2026-11-23T17:54:31.693876+00:00"
+  },
+  {
+    "node": "iotsim-mirai-cnc-1",
+    "link_id": "9eb2cfe7-37cb-472c-9412-84258ad86a12",
+    "filename": "iotsim-mirai-cnc-1-20261123T175431Z.pcap",
+    "requested_start_utc": "2026-11-23T17:54:31.704172+00:00"
+  },
+  {
+    "node": "iotsim-mirai-scan-listener-1",
+    "link_id": "38d8e4aa-63db-46c3-bd58-fccc4a75f532",
+    "filename": "iotsim-mirai-scan-listener-1-20261123T175431Z.pcap",
+    "requested_start_utc": "2026-11-23T17:54:31.712806+00:00"
+  }
+]

@@ -1,0 +1,66 @@
+{
+  "utc": "2026-11-23T17:40:57.861792+00:00",
+  "external_connector_nodes": [],
+  "attack_nodes": [
+    {
+      "name": "iotsim-mirai-cnc-1",
+      "status": "stopped",
+      "image": "iotsim/mirai-cnc:latest",
+      "start_command": null
+    },
+    {
+      "name": "iotsim-mirai-scan-listener-1",
+      "status": "stopped",
+      "image": "iotsim/mirai-scan-listener:latest",
+      "start_command": null
+    },
+    {
+      "name": "iotsim-mirai-loader-1",
+      "status": "stopped",
+      "image": "iotsim/mirai-loader:latest",
+      "start_command": null
+    },
+    {
+      "name": "iotsim-mirai-wget-loader-1",
+      "status": "stopped",
+      "image": "iotsim/mirai-wget-loader:latest",
+      "start_command": null
+    },
+    {
+      "name": "iotsim-mirai-bot-1",
+      "status": "stopped",
+      "image": "iotsim/mirai-bot:latest",
+      "start_command": null
+    },
+    {
+      "name": "iotsim-merlin-cnc-1",
+      "status": "stopped",
+      "image": "iotsim/merlin-cnc:latest",
+      "start_command": null
+    },
+    {
+      "name": "iotsim-scanner-1",
+      "status": "stopped",
+      "image": "iotsim/scanner:latest",
+      "start_command": null
+    },
+    {
+      "name": "iotsim-amplification-coap-1",
+      "status": "stopped",
+      "image": "iotsim/amplification-coap:latest",
+      "start_command": null
+    },
+    {
+      "name": "iotsim-mqtt-attacks-1",
+      "status": "stopped",
+      "image": "iotsim/mqtt-attacks:latest",
+      "start_command": null
+    },
+    {
+      "name": "iotsim-metasploit-1",
+      "status": "stopped",
+      "image": "iotsim/metasploit:latest",
+      "start_command": null
+    }
+  ]
+}

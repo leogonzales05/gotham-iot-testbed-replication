@@ -1,0 +1,47 @@
+{
+  "start_utc": "2026-11-23T20:12:27.264555+00:00",
+  "stages": {
+    "mirai": {
+      "start_utc": "2026-11-23T20:12:29.634722+00:00",
+      "status": "executed_requires_evidence_review",
+      "behavior_validated": false,
+      "source_sha256": "47a8d38c6a8d55926f23fa1aac0481eec20348222bf49b076b2f4e078f958e66",
+      "launcher_start_utc": "2026-11-23T20:13:03.975911+00:00",
+      "launcher_exit_code": 0,
+      "listener_reports": 5,
+      "listener_unique_ips": [
+        "192.168.19.22",
+        "192.168.20.12",
+        "192.168.20.14",
+        "192.168.20.33"
+      ],
+      "evidence_note": "Reportes del listener; no prueban propagaci\u00f3n ni DDoS.",
+      "end_utc": "2026-11-23T20:15:20.640597+00:00"
+    },
+    "merlin": {
+      "start_utc": "2026-11-23T20:15:20.640817+00:00",
+      "status": "blocked_or_failed",
+      "behavior_validated": false,
+      "error": "RuntimeError('El original exige un nodo compromised \u00fanico; encontrados 0. No se eligi\u00f3 otro dispositivo.')",
+      "end_utc": "2026-11-23T20:15:20.641023+00:00"
+    },
+    "mqtt": {
+      "start_utc": "2026-11-23T20:15:20.641334+00:00",
+      "status": "executed_requires_evidence_review",
+      "behavior_validated": false,
+      "source_sha256": "cb87e2cc3ca71e40f246cfb436e273452e5b4f93dae25a8d293268d6987d1f5f",
+      "launcher_start_utc": "2026-11-23T20:15:51.540044+00:00",
+      "launcher_exit_code": 0,
+      "end_utc": "2026-11-23T20:18:11.790785+00:00"
+    }
+  },
+  "scope": "Lanzadores originales Mirai, Merlin y Metasploit/MQTT. No automatiza Nmap, Masscan ni amplificaci\u00f3n CoAP.",
+  "remaining": [
+    "Nmap/Masscan",
+    "amplificaci\u00f3n CoAP"
+  ],
+  "warning": "Los cambios de contrase\u00f1as y Telnet de Mirai persisten. La parada de nodos no restaura los dispositivos.",
+  "scanner_patch_sha256": "700a32edfa752c7ecc32d2cd3b3bd5eaab4322bcdeb9bd76943ea44c799b24d8",
+  "cleanup_errors": [],
+  "end_utc": "2026-11-23T20:18:11.790961+00:00"
+}

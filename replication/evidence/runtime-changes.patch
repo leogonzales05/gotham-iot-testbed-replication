@@ -1,0 +1,14 @@
+diff --git a/Dockerfiles/iot/stream_server/Dockerfile b/Dockerfiles/iot/stream_server/Dockerfile
+index 837ab92..fcb2eaa 100644
+--- a/Dockerfiles/iot/stream_server/Dockerfile
++++ b/Dockerfiles/iot/stream_server/Dockerfile
+@@ -1,8 +1,7 @@
+ # using directly aler9/rtsp-simple-server fails ing GN3 for some reason...
+ 
+-FROM aler9/rtsp-simple-server:v0.18.3 AS rtsp
+ 
+ FROM alpine
+-COPY --from=rtsp /rtsp-simple-server /
++COPY rtsp-simple-server /
+ COPY rtsp-simple-server.yml /
+ ENTRYPOINT [ "/rtsp-simple-server" ]

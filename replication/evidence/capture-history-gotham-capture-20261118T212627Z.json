@@ -1,0 +1,9 @@
+{
+  "planned_seconds": 3600,
+  "completed": true,
+  "start_utc": "2026-11-18T21:26:27.896463+00:00",
+  "pcap": "/home/ubuntu/GNS3/projects/c09e7ed4-88b1-401f-a934-deaca6d79683/project-files/captures/gotham-normal-60min-20261118T212627Z.pcap",
+  "stop_confirmed": true,
+  "end_utc": "2026-11-18T22:26:27.922483+00:00",
+  "elapsed_seconds": 3600.0260291079976
+}

@@ -1,0 +1,39 @@
+
+===================================================================
+Protocol Hierarchy Statistics
+Filter: 
+
+eth                                      frames:2651026 bytes:3326640939
+  ip                                     frames:2647962 bytes:3326510011
+    tcp                                  frames:251992 bytes:42117204
+      mqtt                               frames:67890 bytes:12191113
+        tcp.segments                     frames:650 bytes:363435
+          mqtt                           frames:30 bytes:16905
+            mqtt                         frames:30 bytes:16905
+              mqtt                       frames:30 bytes:16905
+                mqtt                     frames:30 bytes:16905
+        mqtt                             frames:30 bytes:45420
+          mqtt                           frames:30 bytes:45420
+            mqtt                         frames:30 bytes:45420
+              mqtt                       frames:30 bytes:45420
+                mqtt                     frames:30 bytes:45420
+      tls                                frames:46568 bytes:14586749
+        tcp.segments                     frames:2085 bytes:2022105
+          tls                            frames:1785 bytes:1843905
+      rtsp                               frames:605 bytes:133661
+    udp                                  frames:2392181 bytes:3284016157
+      rtp                                frames:2333657 bytes:3279179591
+      dns                                frames:39084 bytes:3151638
+      ntp                                frames:6718 bytes:604620
+      rtcp                               frames:6672 bytes:554440
+        rtcp                             frames:2063 bytes:226930
+      coap                               frames:1550 bytes:133638
+        data-text-lines                  frames:679 bytes:38687
+      dtls                               frames:4500 bytes:392230
+    icmp                                 frames:3789 bytes:376650
+      dtls                               frames:300 bytes:30300
+      rtp                                frames:9 bytes:5310
+  arp                                    frames:2984 bytes:125328
+  ipv6                                   frames:80 bytes:5600
+    icmpv6                               frames:80 bytes:5600
+===================================================================

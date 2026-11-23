@@ -1,0 +1,12 @@
+RESULTADOS DEL ESCENARIO
+Directorio: /home/ubuntu/gotham-iot-testbed/replication/results/attacks-20261123T201227264427Z
+
+MIRAI: executed_requires_evidence_review
+  Reportes: 5; IP únicas: 4
+MERLIN: blocked_or_failed
+  RuntimeError('El original exige un nodo compromised único; encontrados 0. No se eligió otro dispositivo.')
+MQTT: executed_requires_evidence_review
+
+No ejecutado por este lanzador: Nmap/Masscan y amplificación CoAP.
+La ejecución sin errores NO equivale a validación del comportamiento.
+Los cambios de contraseñas y Telnet de Mirai persisten. La parada de nodos no restaura los dispositivos.

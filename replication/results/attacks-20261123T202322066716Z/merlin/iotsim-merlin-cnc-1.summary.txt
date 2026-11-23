@@ -1,0 +1,5 @@
+File name:           /home/ubuntu/GNS3/projects/c09e7ed4-88b1-401f-a934-deaca6d79683/project-files/captures/merlin-iotsim-merlin-cnc-1-20261123T202322066716Z.pcap
+Number of packets:   3963
+Capture duration:    234.984824 seconds
+First packet time:   2026-11-23 20:26:16.708934
+Last packet time:    2026-11-23 20:30:11.693758

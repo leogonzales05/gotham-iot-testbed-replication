@@ -4,3 +4,19 @@
 
 # vscode
 .vscode/
+
+# Archivos locales de la replicacion Gotham
+/.venv/
+__pycache__/
+*.pyc
+/buildstatus/*
+!/buildstatus/.gitkeep
+*.pcap
+*.pcapng
+*.iso
+*.iso.*
+*.qcow2
+/Dockerfiles/iot/stream_server/rtsp-simple-server
+*.pcap
+*.iso
+*.qcow2
